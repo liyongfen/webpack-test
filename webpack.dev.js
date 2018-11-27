@@ -79,8 +79,8 @@ let config = module.exports = {
         './dist/comos/comos': './src/comos/comos',
     },
     output: {
-        filename: '[name].min.js',
-        chunkFilename: '[name].chunk.min.js?[chunkhash:8]',
+        filename: '[name].js',
+        chunkFilename: '[name].chunk.js?[chunkhash:8]',
         publicPath: './src/',
     },
     devtool: 'source-map',

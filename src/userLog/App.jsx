@@ -7,7 +7,7 @@ class App extends React.PureComponent {
         super(props);
     }
     render() {
-        return (<div class={styles.text} >userLog</div>);
+        return (<div class={styles.text}>userLog</div>);
     }
 }
 export default App;
